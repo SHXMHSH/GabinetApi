@@ -15,6 +15,7 @@ namespace GabinetApi.Models
         public int PatientId { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
+
         public Patient Patient { get; set; }
         public Doctor Doctor { get; set; }
 
